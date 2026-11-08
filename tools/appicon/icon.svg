@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="field" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5BC8B8"/>
+      <stop offset="0.55" stop-color="#8BC34A"/>
+      <stop offset="1" stop-color="#7CB342"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景: ゲームフィールドと同じグラデーション -->
+  <rect width="1024" height="1024" fill="url(#field)"/>
+
+  <!-- 太陽と雲 -->
+  <circle cx="185" cy="185" r="150" fill="#FFEB3B" opacity="0.28"/>
+  <circle cx="185" cy="185" r="105" fill="#FFE082"/>
+  <g fill="#FFFFFF" opacity="0.92">
+    <ellipse cx="330" cy="128" rx="64" ry="30"/>
+    <ellipse cx="392" cy="112" rx="46" ry="24"/>
+  </g>
+
+  <!-- 芝生の丘 -->
+  <ellipse cx="512" cy="1090" rx="720" ry="200" fill="#68A436"/>
+
+  <!-- 飛んでくるりんご(えさ) -->
+  <path d="M 952 84 Q 884 118 822 180" fill="none" stroke="#FFFFFF" stroke-width="16"
+        stroke-linecap="round" stroke-dasharray="2 46" opacity="0.95"/>
+  <g>
+    <path d="M 768 176 q 4 -34 34 -46" fill="none" stroke="#6D4C41" stroke-width="16" stroke-linecap="round"/>
+    <ellipse cx="822" cy="140" rx="34" ry="18" fill="#66BB6A" transform="rotate(-24 822 140)"/>
+    <circle cx="762" cy="252" r="82" fill="#E53935"/>
+    <ellipse cx="730" cy="222" rx="24" ry="15" fill="#FFFFFF" opacity="0.55" transform="rotate(-32 730 222)"/>
+  </g>
+
+  <!-- らいおん -->
+  <g>
+    <!-- たてがみ(スカラップ) -->
+    <g fill="#B96A32">
+      <circle cx="752" cy="600" r="90"/>
+      <circle cx="720" cy="720" r="90"/>
+      <circle cx="632" cy="808" r="90"/>
+      <circle cx="512" cy="840" r="90"/>
+      <circle cx="392" cy="808" r="90"/>
+      <circle cx="304" cy="720" r="90"/>
+      <circle cx="272" cy="600" r="90"/>
+      <circle cx="304" cy="480" r="90"/>
+      <circle cx="392" cy="392" r="90"/>
+      <circle cx="512" cy="360" r="90"/>
+      <circle cx="632" cy="392" r="90"/>
+      <circle cx="720" cy="480" r="90"/>
+      <circle cx="512" cy="600" r="255"/>
+    </g>
+    <!-- 顔 -->
+    <circle cx="512" cy="600" r="200" fill="#E8A33D"/>
+    <!-- 目 -->
+    <g fill="#3E2723">
+      <circle cx="427" cy="545" r="27"/>
+      <circle cx="597" cy="545" r="27"/>
+    </g>
+    <g fill="#FFFFFF">
+      <circle cx="419" cy="536" r="9"/>
+      <circle cx="589" cy="536" r="9"/>
+    </g>
+    <!-- ほっぺ -->
+    <circle cx="370" cy="642" r="34" fill="#F48FB1" opacity="0.45"/>
+    <circle cx="654" cy="642" r="34" fill="#F48FB1" opacity="0.45"/>
+    <!-- 口まわり -->
+    <ellipse cx="512" cy="690" rx="122" ry="90" fill="#F5D9A8"/>
+    <ellipse cx="512" cy="652" rx="26" ry="18" fill="#6D4C41"/>
+    <!-- あーんと開けた口 -->
+    <ellipse cx="512" cy="736" rx="58" ry="44" fill="#5D4037"/>
+    <ellipse cx="512" cy="758" rx="36" ry="20" fill="#E57373"/>
+  </g>
+</svg>

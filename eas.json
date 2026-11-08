@@ -1,0 +1,22 @@
+{
+  "cli": {
+    "version": ">= 24.10.0",
+    "appVersionSource": "local"
+  },
+  "build": {
+    "preview": {
+      "node": "22.22.2",
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "production": {
+      "node": "22.22.2",
+      "autoIncrement": true,
+      "android": {
+        "buildType": "app-bundle"
+      }
+    }
+  }
+}

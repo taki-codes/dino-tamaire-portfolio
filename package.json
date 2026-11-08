@@ -1,0 +1,33 @@
+{
+  "name": "dino-tamaire",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "@shopify/react-native-skia": "2.6.2",
+    "expo": "~56.0.23",
+    "expo-audio": "~56.0.13",
+    "expo-haptics": "~56.0.3",
+    "expo-splash-screen": "~56.0.15",
+    "expo-status-bar": "~56.0.4",
+    "react": "19.2.3",
+    "react-native": "0.85.3",
+    "react-native-gesture-handler": "~2.31.1",
+    "react-native-reanimated": "4.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "typescript": "~6.0.3"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit",
+    "login:expo": "npx eas-cli@24.10.0 login",
+    "build:android": "node tools/build-android.cjs preview",
+    "build:android:store": "node tools/build-android.cjs production",
+    "test:robot": "node tools/test-robot.cjs"
+  },
+  "private": true
+}

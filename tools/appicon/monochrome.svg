@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- Androidモノクロアイコン: 白1色+透過。目と口は抜きで表現 -->
+  <defs>
+    <mask id="holes" maskUnits="userSpaceOnUse" x="0" y="0" width="1024" height="1024">
+      <rect x="-200" y="-200" width="1424" height="1424" fill="#fff"/>
+      <circle cx="427" cy="545" r="32" fill="#000"/>
+      <circle cx="597" cy="545" r="32" fill="#000"/>
+      <ellipse cx="512" cy="652" rx="28" ry="20" fill="#000"/>
+      <ellipse cx="512" cy="736" rx="60" ry="46" fill="#000"/>
+    </mask>
+  </defs>
+  <g transform="translate(512,512) scale(0.66) translate(-512,-600)">
+    <g fill="#FFFFFF" mask="url(#holes)">
+      <circle cx="752" cy="600" r="90"/>
+      <circle cx="720" cy="720" r="90"/>
+      <circle cx="632" cy="808" r="90"/>
+      <circle cx="512" cy="840" r="90"/>
+      <circle cx="392" cy="808" r="90"/>
+      <circle cx="304" cy="720" r="90"/>
+      <circle cx="272" cy="600" r="90"/>
+      <circle cx="304" cy="480" r="90"/>
+      <circle cx="392" cy="392" r="90"/>
+      <circle cx="512" cy="360" r="90"/>
+      <circle cx="632" cy="392" r="90"/>
+      <circle cx="720" cy="480" r="90"/>
+      <circle cx="512" cy="600" r="255"/>
+    </g>
+  </g>
+</svg>
